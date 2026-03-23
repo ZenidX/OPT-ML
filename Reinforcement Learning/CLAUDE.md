@@ -47,6 +47,9 @@ Reinforcement Learning/
 │       ├── pybullet_robotica.py                  # Variantes: A=PPO, B=SAC, C=TD3, D=matriz Algo×Robot
 │       └── pybullet_rl.ipynb
 │
+├── 05_Practica/                                  # PRÁCTICA FINAL
+│   └── Practica_Final_RL.html                    # Enunciado y rúbrica de evaluación
+│
 ├── modelos/                                      # Modelos entrenados (.pth)
 │   ├── cartpole_dqn.pth
 │   ├── nibbler_best.pth
@@ -286,6 +289,34 @@ Los notebooks `.ipynb` de cada proyecto documentan cada variante con explicació
 - **DataLoader**: Usar `num_workers=0` siempre
 - **Box2D**: Instalar `swig` primero si falla
 - **PyBullet**: Actualizar drivers GPU si hay errores OpenGL
+
+## Práctica Final
+
+### Enunciado
+El enunciado completo con rúbrica está en: `05_Practica/Practica_Final_RL.html`
+
+### Resumen
+- **Objetivo**: Entrenar un agente DQN en un entorno a elección del alumno
+- **Algoritmo**: Solo DQN (implementado con PyTorch)
+- **Entorno**: Juego propio (Pygame), de internet, o Atari de Gymnasium
+- **Formato**: Jupyter Notebook + archivos .py auxiliares opcionales
+- **Modalidad**: Individual o grupal
+
+### Evaluación (100 puntos)
+
+| Criterio | Peso |
+|----------|------|
+| Código funcional | 30% |
+| Curvas de aprendizaje | 20% |
+| Evaluación del agente | 20% |
+| Documentación | 20% |
+| Creatividad | 10% |
+
+### Bonificaciones (hasta +20%)
+- +10%: Entorno propio creado con Pygame
+- +5%: Mejoras a DQN (Double, Dueling, Prioritized)
+- +5%: Análisis sistemático de hiperparámetros
+- +5%: Visualización del agente (vídeo/GIF)
 
 ## Recursos
 
